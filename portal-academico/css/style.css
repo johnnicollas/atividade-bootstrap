@@ -1,0 +1,37 @@
+/* Cores da Faculdade Nassau (azul) */
+:root {
+  --horizonte: #1d3f72;
+  --horizonte-claro: #e8eef7;
+}
+
+.bg-horizonte {
+  background-color: var(--horizonte);
+}
+
+.bg-horizonte-claro {
+  background-color: var(--horizonte-claro);
+}
+
+.text-horizonte {
+  color: var(--horizonte);
+}
+
+/* Botão principal na cor da instituição */
+.btn-primary {
+  --bs-btn-bg: var(--horizonte);
+  --bs-btn-border-color: var(--horizonte);
+  --bs-btn-hover-bg: #16315a;
+  --bs-btn-hover-border-color: #16315a;
+  --bs-btn-active-bg: #16315a;
+  --bs-btn-active-border-color: #16315a;
+}
+
+/* Faixa colorida no topo dos cards de acesso rápido */
+.card-horizonte {
+  border-top: 4px solid var(--horizonte);
+}
+
+/* Compensa a navbar ao clicar nas âncoras do menu */
+section {
+  scroll-margin-top: 1rem;
+}
